@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface MyPerson : NSObject
-
+/** 书本 */
+@property (nonatomic, strong) NSArray *books;
 @end

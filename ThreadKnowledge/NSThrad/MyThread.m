@@ -10,4 +10,9 @@
 
 @implementation MyThread
 
+- (void)dealloc {
+    
+    NSLog(@"MyThread--- -dealloc");
+}
+
 @end
