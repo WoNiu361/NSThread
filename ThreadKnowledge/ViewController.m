@@ -12,6 +12,7 @@
 #import "ThreadCommunicationViewController.h"
 #import "GCDBaseUseViewController.h"
 #import "GCDCommonUseViewController.h"
+#import "DispatchOnceViewController.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
@@ -31,8 +32,9 @@
     self.title = @"线程知识";
     self.titleArray = [NSArray arrayWithObjects:@"NSThread",@"线程安全",@"线程间通信", nil];
     self.vcNameArray = [NSArray arrayWithObjects:@"NSThreadViewController",@"ThreadSafeViewController",@"ThreadCommunicationViewController", nil];
-    self.gcdTitleArray = [NSArray arrayWithObjects:@"GCD的基本使用",@"GCD常用函数",@"线程间通信", nil];
-    self.gcdVCArray = [NSArray arrayWithObjects:@"GCDBaseUseViewController",@"GCDCommonUseViewController",@"ThreadCommunicationViewController", nil];
+    
+    self.gcdTitleArray = [NSArray arrayWithObjects:@"GCD的基本使用",@"GCD常用函数",@"单粒模式", nil];
+    self.gcdVCArray = [NSArray arrayWithObjects:@"GCDBaseUseViewController",@"GCDCommonUseViewController",@"DispatchOnceViewController", nil];
     
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
     tableView.delegate = self;

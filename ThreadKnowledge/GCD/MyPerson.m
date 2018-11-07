@@ -2,12 +2,16 @@
 //  MyPerson.m
 //  ThreadKnowledge
 //
-//  Created by 吕颜辉 on 2018/11/4.
+//  Created by 庭好的 on 2018/11/4.
 //  Copyright © 2018年 LYH-1140663172. All rights reserved.
 //
 
 #import "MyPerson.h"
 
+@interface MyPerson ()<NSCopying>
+
+@end
+static MyPerson *_person;//防止外界访问
 @implementation MyPerson
 
 - (NSArray *)books
@@ -27,5 +31,31 @@
     
     return _books;
 }
+
+/****-------------------------------****/
+//first step,根本上保证你外边调用N次，只返回一个对象
++ (instancetype)allocWithZone:(struct _NSZone *)zone {
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _person = [super allocWithZone:zone];
+    });
+    return _person;
+}
+
+//second step 根本上保证你外边调用N次，只创建初始化一个对象
++ (instancetype)sharedPerson {
+    
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        _person = [[self alloc] init];
+    });
+    return _person;
+}
+
+//防止外面copy对象，生成新的对象（保证只有一个对象）
+- (id)copyWithZone:(NSZone *)zone {
+    return _person;
+}
+
 
 @end
