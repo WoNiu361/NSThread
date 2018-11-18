@@ -9,6 +9,11 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 
+/*
+ 欢迎光顾我在CocoaChina上的博客
+ http://blog.cocoachina.com/473781
+ */
+
 @interface AppDelegate ()
 
 @end

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1468FACF21A15A5600B66EDB /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1468FACE21A15A5600B66EDB /* NSOperationViewController.m */; };
+		1468FAD221A15D5E00B66EDB /* NSOperationQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1468FAD121A15D5E00B66EDB /* NSOperationQueueViewController.m */; };
+		1468FAD521A15EC900B66EDB /* MyOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1468FAD421A15EC900B66EDB /* MyOperation.m */; };
+		1468FADB21A1646E00B66EDB /* NSOperationDependencyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1468FADA21A1646E00B66EDB /* NSOperationDependencyViewController.m */; };
+		1468FADF21A165FD00B66EDB /* NSOperationQueueCommunicationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1468FADD21A165FD00B66EDB /* NSOperationQueueCommunicationViewController.m */; };
+		1468FAE021A165FD00B66EDB /* NSOperationQueueCommunicationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1468FADE21A165FD00B66EDB /* NSOperationQueueCommunicationViewController.xib */; };
+		1468FAE321A16A2200B66EDB /* MorePicturesDownLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1468FAE221A16A2200B66EDB /* MorePicturesDownLoadViewController.m */; };
+		1468FAEA21A16B5E00B66EDB /* MyPictures.m in Sources */ = {isa = PBXBuildFile; fileRef = 1468FAE921A16B5E00B66EDB /* MyPictures.m */; };
+		1468FAEC21A16D5F00B66EDB /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1468FAEB21A16D5F00B66EDB /* apps.plist */; };
 		14BD86D4218F356F0087DE01 /* GCDCommonUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BD86D2218F356F0087DE01 /* GCDCommonUseViewController.m */; };
 		14BD86D5218F356F0087DE01 /* GCDCommonUseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14BD86D3218F356F0087DE01 /* GCDCommonUseViewController.xib */; };
 		14BD86D8218F37EA0087DE01 /* MyPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BD86D7218F37EA0087DE01 /* MyPerson.m */; };
@@ -47,6 +56,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1468FACD21A15A5600B66EDB /* NSOperationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationViewController.h; sourceTree = "<group>"; };
+		1468FACE21A15A5600B66EDB /* NSOperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationViewController.m; sourceTree = "<group>"; };
+		1468FAD021A15D5E00B66EDB /* NSOperationQueueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationQueueViewController.h; sourceTree = "<group>"; };
+		1468FAD121A15D5E00B66EDB /* NSOperationQueueViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationQueueViewController.m; sourceTree = "<group>"; };
+		1468FAD321A15EC900B66EDB /* MyOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyOperation.h; sourceTree = "<group>"; };
+		1468FAD421A15EC900B66EDB /* MyOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyOperation.m; sourceTree = "<group>"; };
+		1468FAD921A1646E00B66EDB /* NSOperationDependencyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationDependencyViewController.h; sourceTree = "<group>"; };
+		1468FADA21A1646E00B66EDB /* NSOperationDependencyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationDependencyViewController.m; sourceTree = "<group>"; };
+		1468FADC21A165FD00B66EDB /* NSOperationQueueCommunicationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationQueueCommunicationViewController.h; sourceTree = "<group>"; };
+		1468FADD21A165FD00B66EDB /* NSOperationQueueCommunicationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationQueueCommunicationViewController.m; sourceTree = "<group>"; };
+		1468FADE21A165FD00B66EDB /* NSOperationQueueCommunicationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NSOperationQueueCommunicationViewController.xib; sourceTree = "<group>"; };
+		1468FAE121A16A2200B66EDB /* MorePicturesDownLoadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MorePicturesDownLoadViewController.h; sourceTree = "<group>"; };
+		1468FAE221A16A2200B66EDB /* MorePicturesDownLoadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorePicturesDownLoadViewController.m; sourceTree = "<group>"; };
+		1468FAE821A16B5E00B66EDB /* MyPictures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPictures.h; sourceTree = "<group>"; };
+		1468FAE921A16B5E00B66EDB /* MyPictures.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPictures.m; sourceTree = "<group>"; };
+		1468FAEB21A16D5F00B66EDB /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
 		14BD86D1218F356F0087DE01 /* GCDCommonUseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDCommonUseViewController.h; sourceTree = "<group>"; };
 		14BD86D2218F356F0087DE01 /* GCDCommonUseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDCommonUseViewController.m; sourceTree = "<group>"; };
 		14BD86D3218F356F0087DE01 /* GCDCommonUseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GCDCommonUseViewController.xib; sourceTree = "<group>"; };
@@ -113,6 +138,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1468FACC21A1588A00B66EDB /* NSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				1468FACD21A15A5600B66EDB /* NSOperationViewController.h */,
+				1468FACE21A15A5600B66EDB /* NSOperationViewController.m */,
+				1468FAD021A15D5E00B66EDB /* NSOperationQueueViewController.h */,
+				1468FAD121A15D5E00B66EDB /* NSOperationQueueViewController.m */,
+				1468FAD921A1646E00B66EDB /* NSOperationDependencyViewController.h */,
+				1468FADA21A1646E00B66EDB /* NSOperationDependencyViewController.m */,
+				1468FADC21A165FD00B66EDB /* NSOperationQueueCommunicationViewController.h */,
+				1468FADD21A165FD00B66EDB /* NSOperationQueueCommunicationViewController.m */,
+				1468FADE21A165FD00B66EDB /* NSOperationQueueCommunicationViewController.xib */,
+				1468FAE121A16A2200B66EDB /* MorePicturesDownLoadViewController.h */,
+				1468FAE221A16A2200B66EDB /* MorePicturesDownLoadViewController.m */,
+				1468FAD321A15EC900B66EDB /* MyOperation.h */,
+				1468FAD421A15EC900B66EDB /* MyOperation.m */,
+				1468FAE821A16B5E00B66EDB /* MyPictures.h */,
+				1468FAE921A16B5E00B66EDB /* MyPictures.m */,
+			);
+			path = NSOperation;
+			sourceTree = "<group>";
+		};
 		CA6D7CEC2187EDC500A8EEAF = {
 			isa = PBXGroup;
 			children = (
@@ -140,12 +187,14 @@
 				CA6D7CF92187EDC500A8EEAF /* AppDelegate.m */,
 				CA6D7CFB2187EDC500A8EEAF /* ViewController.h */,
 				CA6D7CFC2187EDC500A8EEAF /* ViewController.m */,
+				1468FACC21A1588A00B66EDB /* NSOperation */,
 				CA930744218C2EE10011BB1D /* GCD */,
 				CA930733218C2E680011BB1D /* NSThrad */,
 				CA6D7CFE2187EDC500A8EEAF /* Main.storyboard */,
 				CA6D7D012187EDC800A8EEAF /* Assets.xcassets */,
 				CA6D7D032187EDC800A8EEAF /* LaunchScreen.storyboard */,
 				CA6D7D062187EDC800A8EEAF /* Info.plist */,
+				1468FAEB21A16D5F00B66EDB /* apps.plist */,
 				CA6D7D072187EDC800A8EEAF /* main.m */,
 			);
 			path = ThreadKnowledge;
@@ -269,7 +318,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = "LYH-1140663172";
+				ORGANIZATIONNAME = "LYH-1140663172(欢迎光顾我的博客：http://blog.cocoachina.com/473781)";
 				TargetAttributes = {
 					CA6D7CF42187EDC500A8EEAF = {
 						CreatedOnToolsVersion = 9.4;
@@ -309,7 +358,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1468FAEC21A16D5F00B66EDB /* apps.plist in Resources */,
 				14BD86D5218F356F0087DE01 /* GCDCommonUseViewController.xib in Resources */,
+				1468FAE021A165FD00B66EDB /* NSOperationQueueCommunicationViewController.xib in Resources */,
 				CA6D7D052187EDC800A8EEAF /* LaunchScreen.storyboard in Resources */,
 				CA930743218C2EAF0011BB1D /* ThreadCommunicationViewController.xib in Resources */,
 				CA6D7D022187EDC800A8EEAF /* Assets.xcassets in Resources */,
@@ -339,18 +390,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1468FADB21A1646E00B66EDB /* NSOperationDependencyViewController.m in Sources */,
 				CA930742218C2EAF0011BB1D /* ThreadSafeViewController.m in Sources */,
 				CA6D7CFD2187EDC500A8EEAF /* ViewController.m in Sources */,
+				1468FAEA21A16B5E00B66EDB /* MyPictures.m in Sources */,
 				CA930747218C31710011BB1D /* GCDBaseUseViewController.m in Sources */,
+				1468FAE321A16A2200B66EDB /* MorePicturesDownLoadViewController.m in Sources */,
+				1468FAD521A15EC900B66EDB /* MyOperation.m in Sources */,
 				CA930740218C2EAF0011BB1D /* ThreadCommunicationViewController.m in Sources */,
 				CA4862522192B87600CF4ABE /* DispatchOnceViewController.m in Sources */,
 				CA4862552192BDE600CF4ABE /* StudyCoding.m in Sources */,
+				1468FAD221A15D5E00B66EDB /* NSOperationQueueViewController.m in Sources */,
 				14BD86D8218F37EA0087DE01 /* MyPerson.m in Sources */,
 				CA6D7D082187EDC800A8EEAF /* main.m in Sources */,
 				CA6D7CFA2187EDC500A8EEAF /* AppDelegate.m in Sources */,
 				14BD86D4218F356F0087DE01 /* GCDCommonUseViewController.m in Sources */,
 				CA93073E218C2EAF0011BB1D /* NSThreadViewController.m in Sources */,
 				CA930741218C2EAF0011BB1D /* MyThread.m in Sources */,
+				1468FACF21A15A5600B66EDB /* NSOperationViewController.m in Sources */,
+				1468FADF21A165FD00B66EDB /* NSOperationQueueCommunicationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
