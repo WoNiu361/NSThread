@@ -15,7 +15,8 @@
 		1468FAE021A165FD00B66EDB /* NSOperationQueueCommunicationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1468FADE21A165FD00B66EDB /* NSOperationQueueCommunicationViewController.xib */; };
 		1468FAE321A16A2200B66EDB /* MorePicturesDownLoadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1468FAE221A16A2200B66EDB /* MorePicturesDownLoadViewController.m */; };
 		1468FAEA21A16B5E00B66EDB /* MyPictures.m in Sources */ = {isa = PBXBuildFile; fileRef = 1468FAE921A16B5E00B66EDB /* MyPictures.m */; };
-		1468FAEC21A16D5F00B66EDB /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1468FAEB21A16D5F00B66EDB /* apps.plist */; };
+		1468FAF121A1738B00B66EDB /* 下载图片-有沙盒缓存(思路图).png in Resources */ = {isa = PBXBuildFile; fileRef = 1468FAF021A1738B00B66EDB /* 下载图片-有沙盒缓存(思路图).png */; };
+		1468FAF321A1740400B66EDB /* apps.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1468FAF221A1740400B66EDB /* apps.plist */; };
 		14BD86D4218F356F0087DE01 /* GCDCommonUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BD86D2218F356F0087DE01 /* GCDCommonUseViewController.m */; };
 		14BD86D5218F356F0087DE01 /* GCDCommonUseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14BD86D3218F356F0087DE01 /* GCDCommonUseViewController.xib */; };
 		14BD86D8218F37EA0087DE01 /* MyPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 14BD86D7218F37EA0087DE01 /* MyPerson.m */; };
@@ -71,7 +72,8 @@
 		1468FAE221A16A2200B66EDB /* MorePicturesDownLoadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MorePicturesDownLoadViewController.m; sourceTree = "<group>"; };
 		1468FAE821A16B5E00B66EDB /* MyPictures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPictures.h; sourceTree = "<group>"; };
 		1468FAE921A16B5E00B66EDB /* MyPictures.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyPictures.m; sourceTree = "<group>"; };
-		1468FAEB21A16D5F00B66EDB /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
+		1468FAF021A1738B00B66EDB /* 下载图片-有沙盒缓存(思路图).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下载图片-有沙盒缓存(思路图).png"; sourceTree = "<group>"; };
+		1468FAF221A1740400B66EDB /* apps.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = apps.plist; sourceTree = "<group>"; };
 		14BD86D1218F356F0087DE01 /* GCDCommonUseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDCommonUseViewController.h; sourceTree = "<group>"; };
 		14BD86D2218F356F0087DE01 /* GCDCommonUseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDCommonUseViewController.m; sourceTree = "<group>"; };
 		14BD86D3218F356F0087DE01 /* GCDCommonUseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GCDCommonUseViewController.xib; sourceTree = "<group>"; };
@@ -160,6 +162,15 @@
 			path = NSOperation;
 			sourceTree = "<group>";
 		};
+		1468FAED21A1730000B66EDB /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1468FAF221A1740400B66EDB /* apps.plist */,
+				1468FAF021A1738B00B66EDB /* 下载图片-有沙盒缓存(思路图).png */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		CA6D7CEC2187EDC500A8EEAF = {
 			isa = PBXGroup;
 			children = (
@@ -194,8 +205,8 @@
 				CA6D7D012187EDC800A8EEAF /* Assets.xcassets */,
 				CA6D7D032187EDC800A8EEAF /* LaunchScreen.storyboard */,
 				CA6D7D062187EDC800A8EEAF /* Info.plist */,
-				1468FAEB21A16D5F00B66EDB /* apps.plist */,
 				CA6D7D072187EDC800A8EEAF /* main.m */,
+				1468FAED21A1730000B66EDB /* Sources */,
 			);
 			path = ThreadKnowledge;
 			sourceTree = "<group>";
@@ -358,13 +369,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1468FAEC21A16D5F00B66EDB /* apps.plist in Resources */,
 				14BD86D5218F356F0087DE01 /* GCDCommonUseViewController.xib in Resources */,
 				1468FAE021A165FD00B66EDB /* NSOperationQueueCommunicationViewController.xib in Resources */,
 				CA6D7D052187EDC800A8EEAF /* LaunchScreen.storyboard in Resources */,
+				1468FAF121A1738B00B66EDB /* 下载图片-有沙盒缓存(思路图).png in Resources */,
 				CA930743218C2EAF0011BB1D /* ThreadCommunicationViewController.xib in Resources */,
 				CA6D7D022187EDC800A8EEAF /* Assets.xcassets in Resources */,
 				CA6D7D002187EDC500A8EEAF /* Main.storyboard in Resources */,
+				1468FAF321A1740400B66EDB /* apps.plist in Resources */,
 				CA93073F218C2EAF0011BB1D /* NSThreadViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
