@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		143C49A622CB086C00F30218 /* TestBranchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 143C49A522CB086C00F30218 /* TestBranchViewController.m */; };
 		1468FACF21A15A5600B66EDB /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1468FACE21A15A5600B66EDB /* NSOperationViewController.m */; };
 		1468FAD221A15D5E00B66EDB /* NSOperationQueueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1468FAD121A15D5E00B66EDB /* NSOperationQueueViewController.m */; };
 		1468FAD521A15EC900B66EDB /* MyOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1468FAD421A15EC900B66EDB /* MyOperation.m */; };
@@ -57,6 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		143C49A422CB086C00F30218 /* TestBranchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestBranchViewController.h; sourceTree = "<group>"; };
+		143C49A522CB086C00F30218 /* TestBranchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestBranchViewController.m; sourceTree = "<group>"; };
 		1468FACD21A15A5600B66EDB /* NSOperationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationViewController.h; sourceTree = "<group>"; };
 		1468FACE21A15A5600B66EDB /* NSOperationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOperationViewController.m; sourceTree = "<group>"; };
 		1468FAD021A15D5E00B66EDB /* NSOperationQueueViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationQueueViewController.h; sourceTree = "<group>"; };
@@ -198,6 +201,8 @@
 				CA6D7CF92187EDC500A8EEAF /* AppDelegate.m */,
 				CA6D7CFB2187EDC500A8EEAF /* ViewController.h */,
 				CA6D7CFC2187EDC500A8EEAF /* ViewController.m */,
+				143C49A422CB086C00F30218 /* TestBranchViewController.h */,
+				143C49A522CB086C00F30218 /* TestBranchViewController.m */,
 				1468FACC21A1588A00B66EDB /* NSOperation */,
 				CA930744218C2EE10011BB1D /* GCD */,
 				CA930733218C2E680011BB1D /* NSThrad */,
@@ -404,6 +409,7 @@
 			files = (
 				1468FADB21A1646E00B66EDB /* NSOperationDependencyViewController.m in Sources */,
 				CA930742218C2EAF0011BB1D /* ThreadSafeViewController.m in Sources */,
+				143C49A622CB086C00F30218 /* TestBranchViewController.m in Sources */,
 				CA6D7CFD2187EDC500A8EEAF /* ViewController.m in Sources */,
 				1468FAEA21A16B5E00B66EDB /* MyPictures.m in Sources */,
 				CA930747218C31710011BB1D /* GCDBaseUseViewController.m in Sources */,
@@ -590,7 +596,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BJEL6W9G7Q;
+				DEVELOPMENT_TEAM = 9DRBP886Z7;
 				INFOPLIST_FILE = ThreadKnowledge/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -608,7 +614,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BJEL6W9G7Q;
+				DEVELOPMENT_TEAM = 9DRBP886Z7;
 				INFOPLIST_FILE = ThreadKnowledge/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
